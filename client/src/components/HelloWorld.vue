@@ -9,7 +9,7 @@ import vue2Dropzone from 'vue2-dropzone'
 import 'vue2-dropzone/dist/vue2Dropzone.min.css'
 
 export default {
-  name: 'HelloWorld'
+  name: 'HelloWorld',
   data: function () {
     return {
       dropzoneOptions: {
@@ -19,7 +19,7 @@ export default {
     }
   },
   components: {
-    vue2Dropzone: vue2Dropzone
+    vueDropzone: vue2Dropzone
   }
 }
 </script>
