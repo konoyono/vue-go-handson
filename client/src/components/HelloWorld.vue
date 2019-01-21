@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <vue-dropzone ref="myVueDropzone" id="dropzone" :optionns="dropzoneOptions"></vue-dropzone>
+    <vue-dropzone ref="myVueDropzone" id="dropzone" :options="dropzoneOptions"></vue-dropzone>
   </div>
 </template>
 
